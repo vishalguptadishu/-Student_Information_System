@@ -1,0 +1,42 @@
+.InputSection {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  
+  .InputSection form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .InputSection label {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .InputSection input[type="text"] {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: red;
+  }
+  
+  .InputSection input[type="number"] {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: red;
+  }
+  .InputSection input[type="submit"] {
+    padding: 8px;
+    background-color: teal;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
+  
